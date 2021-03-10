@@ -19,7 +19,7 @@ body {
   font-weight: bold;
   color: black;
   font-size: 1.2em;
-  font-family: "Poppins";
+  font-family: 'Poppins';
 }
 
 .navbar .logo span {
@@ -121,7 +121,7 @@ ul.features-list li {
 }
 
 ul.features-list li:before {
-  content: "";
+  content: '';
   right: -2em;
   position: absolute;
   width: 20px;
@@ -178,7 +178,7 @@ textarea {
           box-sizing: border-box;
 }
 
-input[type="submit"] {
+input[type='submit'] {
   background-color: var(--blue);
   color: white;
   font-weight: bold;
@@ -195,7 +195,7 @@ input[type="submit"] {
 }
 
 .primary-cta:hover,
-input[type="submit"]:hover {
+input[type='submit']:hover {
   background-color: #004aac;
 }
 
@@ -217,6 +217,7 @@ nav {
   background-color: #20272e;
   height: 100vh;
   padding: 1em;
+  text-align: right;
 }
 
 nav ul.primary-nav {
@@ -229,10 +230,12 @@ nav li a {
   display: block;
   padding: 0.5em;
   font-size: 1.3em;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 nav li a:hover {
-  font-weight: bold;
+  color: #585e9c;
 }
 
 .mobile-menu-exit {
@@ -358,7 +361,6 @@ nav li a:hover {
     position: absolute;
     right: 0;
     width: 350px;
-    bottom: -2em;
   }
   .testi-sec ul {
     display: -webkit-box;
@@ -372,15 +374,13 @@ nav li a:hover {
     position: relative;
   }
   .contact-section .container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr auto;
+        grid-template-columns: 1fr auto;
+  }
+  .contact-left {
+    width: 40%;
   }
   .contact-right {
     position: absolute;
@@ -396,7 +396,7 @@ nav li a:hover {
 
 @media only screen and (min-width: 1450px) {
   .features-section::before {
-    content: "";
+    content: '';
     position: absolute;
     width: 10%;
     height: 20em;
@@ -405,7 +405,7 @@ nav li a:hover {
     top: -4em;
   }
   .features-section:after {
-    content: "";
+    content: '';
     position: absolute;
     width: 200px;
     height: 20em;
