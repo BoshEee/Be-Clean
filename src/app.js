@@ -5,7 +5,7 @@ function slideshow() {
   if (index >= 9) {
     index = 1;
   } else {
-    slideContainer.src = `../assets/${index}.jpg`;
+    slideContainer.src = `./assets/${index}.jpg`;
     index++;
   }
 }
