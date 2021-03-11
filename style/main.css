@@ -271,6 +271,15 @@ nav li a:hover {
   text-align: right;
 }
 
+.contact-right {
+  text-align: center;
+}
+
+.contact-right img {
+  margin: 5px;
+  width: 90%;
+}
+
 @media only screen and (min-width: 768px) {
   .mobile-menu,
   .mobile-menu-exit {
@@ -410,7 +419,7 @@ nav li a:hover {
     width: 45%;
     height: 100%;
   }
-  .contact-right iframe {
+  .contact-right img {
     height: 100%;
   }
 }

@@ -253,6 +253,13 @@ nav {
 .contact-left {
   text-align: right;
 }
+.contact-right {
+  text-align: center;
+  img {
+    margin: 5px;
+    width: 90%;
+  }
+}
 @media only screen and (min-width: 768px) {
   .mobile-menu,
   .mobile-menu-exit {
@@ -388,7 +395,7 @@ nav {
     width: 45%;
     height: 100%;
 
-    iframe {
+    img {
       height: 100%;
     }
   }
