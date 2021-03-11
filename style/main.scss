@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
 
 :root {
-  --blue: #585e9c;
+  --blue: #3f87c1;
 }
 
 body {
@@ -135,21 +135,11 @@ ul.features-list {
 .testi-sec {
   background: var(--blue);
   color: white;
-
-  li {
-    background: rgb(0, 96, 221);
-    text-align: center;
-    padding: 2em 1em;
-    width: 80%;
-    margin: 0 auto 5em auto;
-    border-radius: 1em;
-    img {
-      width: 5em;
-      height: 5em;
-      border: 5px solid rgb(0, 96, 221);
-      border-radius: 50%;
-      margin-top: -4.5em;
-    }
+  display: flex;
+  justify-content: center;
+  img {
+    width: 20em;
+    height: 20em;
   }
 }
 
