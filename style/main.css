@@ -32,6 +32,10 @@ footer .sm i:hover {
   color: var(--blue);
 }
 
+footer .copyright a {
+  color: var(--blue);
+}
+
 .navbar {
   background: white;
   padding: 1em;

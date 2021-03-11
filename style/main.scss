@@ -28,6 +28,11 @@ footer {
       }
     }
   }
+  .copyright {
+    a {
+      color: var(--blue);
+    }
+  }
 }
 .navbar {
   background: white;
