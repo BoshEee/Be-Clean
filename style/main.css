@@ -1,12 +1,35 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
 :root {
   --blue: #3f87c1;
+  --black: #20272e;
 }
 
 body {
   background: #f2f2f2;
   margin: 0;
   padding: 0;
+}
+
+footer {
+  margin-top: 0.5em;
+  background-color: var(--black);
+  color: white;
+  padding: 1.2em;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+footer .sm {
+  margin-bottom: 10px;
+}
+
+footer .sm i {
+  margin-left: 0.5em;
+  color: white;
+}
+
+footer .sm i:hover {
+  color: var(--blue);
 }
 
 .navbar {

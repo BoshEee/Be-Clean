@@ -2,6 +2,7 @@
 
 :root {
   --blue: #3f87c1;
+  --black: #20272e;
 }
 
 body {
@@ -9,7 +10,25 @@ body {
   margin: 0;
   padding: 0;
 }
+footer {
+  margin-top: 0.5em;
+  background-color: var(--black);
+  color: white;
+  padding: 1.2em;
+  font-size: 1.2em;
+  text-align: center;
+  .sm {
+    margin-bottom: 10px;
 
+    i {
+      margin-left: 0.5em;
+      color: white;
+      &:hover {
+        color: var(--blue);
+      }
+    }
+  }
+}
 .navbar {
   background: white;
   padding: 1em;
